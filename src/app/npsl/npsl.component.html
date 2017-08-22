@@ -1,0 +1,31 @@
+
+<!-- wrapper start -->
+<div class="wrapper" id="wrapper">
+  Wrapper
+<!-- header section -->
+<header>
+  <h1>Proper STL</h1>
+    <h3>Vision</h3>
+</header>
+<hr>
+
+<!-- topics section -->
+<section class="topics" id="topics">
+  <div class="container m-t-md">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <!--Card Template-->
+        <article class="card card-inverse animated fadeInLeft">
+         <img class="img-responsive" [src]="fullImagePath" [alt]= "alt" />
+         <div class="card-img-overlay">
+            <!-- add routing in href to more info -->
+          <a href="#"><h1 class="card-title" ngForOf = "let title of titles">PYRAMID</h1></a>
+         </div>
+        </article>
+        <!-- .end Card -->
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<!--wrapper end -->
